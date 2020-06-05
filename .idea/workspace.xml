@@ -1,13 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="060f9128-a815-48c9-aadf-d28cb778d73c" name="Default Changelist" comment="" />
+    <list default="true" id="060f9128-a815-48c9-aadf-d28cb778d73c" name="Default Changelist" comment="react app created">
+      <change afterPath="$PROJECT_DIR$/pokemon/src/components/Pokemon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pokemon/src/components/PokemonList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cu4fHp6izKwQMxPsuV6TspjgDD" />
@@ -20,7 +52,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/pokemon/package.json" />
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/pokemon/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,17 +84,79 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591365245713</updated>
-      <workItem from="1591365248902" duration="383000" />
+      <workItem from="1591365248902" duration="2122000" />
+      <workItem from="1591374966308" duration="4683000" />
     </task>
+    <task id="LOCAL-00001" summary="react app created">
+      <created>1591365712561</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591365712562</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="react app created" />
+    <option name="LAST_COMMIT_MESSAGE" value="react app created" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="209" y="44" key="SettingsEditor" timestamp="1591365287203">
+    <state x="164" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591365836870">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state x="209" y="44" key="SettingsEditor/0.23.1440.805@0.23.1440.805" timestamp="1591365287203" />
+    <state x="164" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.805@0.23.1440.805" timestamp="1591365836870" />
+    <state x="454" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591374310878">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="454" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1591374310878" />
+    <state width="1419" height="244" key="GridCell.Tab.0.bottom" timestamp="1591388784548">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591388784548" />
+    <state width="1379" height="206" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1591366206556" />
+    <state width="1419" height="244" key="GridCell.Tab.0.center" timestamp="1591388784547">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591388784547" />
+    <state width="1379" height="206" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1591366206556" />
+    <state width="1419" height="244" key="GridCell.Tab.0.left" timestamp="1591388784547">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591388784547" />
+    <state width="1379" height="206" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1591366206555" />
+    <state width="1419" height="244" key="GridCell.Tab.0.right" timestamp="1591388784548">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591388784548" />
+    <state width="1379" height="206" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1591366206556" />
+    <state x="209" y="23" key="SettingsEditor" timestamp="1591387737077">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="209" y="23" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591387737077" />
+    <state x="209" y="44" key="SettingsEditor/0.23.1440.805@0.23.1440.805" timestamp="1591366004156" />
+    <state x="300" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591365756346">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="300" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1591365756346" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591387493726">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591387493726" />
   </component>
 </project>
