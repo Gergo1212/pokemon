@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import PokemonList from "./components/PokemonList";
+import Pokemon from "./components/Pokemon";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
             </Route>
             <Route path={'/pokemon/:id'}>
                 <div>Pokemon with id</div>
+                <Pokemon/>
             </Route>
         </Router>
         </div>

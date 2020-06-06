@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
+import {Link} from "react-router-dom";
 
 class PokemonList extends Component {
 
@@ -9,16 +10,23 @@ class PokemonList extends Component {
 
     componentDidMount() {
         axios.get('https://pokeapi.co/api/v2/pokemon')
-            .then(response => this.setState({pokemonList: response.data.results}))
+            .then(response => this.setState({pokemonList: response.data.results})
+            )
+    }
+
+    getIdFromUrl = (item) => {
+        const splittedUrl = item.url.split('/')
+        return splittedUrl[splittedUrl.length - 2];
     }
 
     render() {
-        const names = this.state.pokemonList.map((item, key) => (
-            <li key={key}>{item.name}</li>
-        ));
         return (
-            <ul>{names}</ul>
-        );
+            this.state.pokemonList.map((item, number) => (
+                <Link to={`/pokemon/${this.getIdFromUrl(item)}`}>
+                    <li key={this.getIdFromUrl(item)}>{item.name}</li>
+                </Link>
+            ))
+        )
     }
 }
 

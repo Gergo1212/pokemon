@@ -19,15 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="060f9128-a815-48c9-aadf-d28cb778d73c" name="Default Changelist" comment="react app created">
-      <change afterPath="$PROJECT_DIR$/pokemon/src/components/Pokemon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokemon/src/components/PokemonList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="060f9128-a815-48c9-aadf-d28cb778d73c" name="Default Changelist" comment="listing pokemons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pokemon/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/src/components/Pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/components/Pokemon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/src/components/PokemonList.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/components/PokemonList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591365245713</updated>
       <workItem from="1591365248902" duration="2122000" />
-      <workItem from="1591374966308" duration="4683000" />
+      <workItem from="1591374966308" duration="4971000" />
+      <workItem from="1591434772718" duration="5340000" />
     </task>
     <task id="LOCAL-00001" summary="react app created">
       <created>1591365712561</created>
@@ -94,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591365712562</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="listing pokemons">
+      <created>1591389735283</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591389735283</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +118,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="react app created" />
-    <option name="LAST_COMMIT_MESSAGE" value="react app created" />
+    <MESSAGE value="listing pokemons" />
+    <option name="LAST_COMMIT_MESSAGE" value="listing pokemons" />
   </component>
   <component name="WindowStateProjectService">
     <state x="164" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591365836870">
@@ -125,38 +130,43 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="454" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1591374310878" />
-    <state width="1419" height="244" key="GridCell.Tab.0.bottom" timestamp="1591388784548">
+    <state width="1419" height="244" key="GridCell.Tab.0.bottom" timestamp="1591438305978">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591388784548" />
+    <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591438305978" />
+    <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1591389800008" />
     <state width="1379" height="206" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1591366206556" />
-    <state width="1419" height="244" key="GridCell.Tab.0.center" timestamp="1591388784547">
+    <state width="1419" height="244" key="GridCell.Tab.0.center" timestamp="1591438305977">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591388784547" />
+    <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591438305977" />
+    <state width="1419" height="244" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1591389800008" />
     <state width="1379" height="206" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1591366206556" />
-    <state width="1419" height="244" key="GridCell.Tab.0.left" timestamp="1591388784547">
+    <state width="1419" height="244" key="GridCell.Tab.0.left" timestamp="1591438305976">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591388784547" />
+    <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591438305976" />
+    <state width="1419" height="244" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1591389800007" />
     <state width="1379" height="206" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1591366206555" />
-    <state width="1419" height="244" key="GridCell.Tab.0.right" timestamp="1591388784548">
+    <state width="1419" height="244" key="GridCell.Tab.0.right" timestamp="1591438305977">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591388784548" />
+    <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591438305977" />
+    <state width="1419" height="244" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1591389800008" />
     <state width="1379" height="206" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1591366206556" />
-    <state x="209" y="23" key="SettingsEditor" timestamp="1591387737077">
+    <state x="209" y="23" key="SettingsEditor" timestamp="1591442484439">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="209" y="23" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591387737077" />
+    <state x="209" y="23" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591442484439" />
     <state x="209" y="44" key="SettingsEditor/0.23.1440.805@0.23.1440.805" timestamp="1591366004156" />
-    <state x="300" y="165" key="Vcs.Push.Dialog.v2" timestamp="1591365756346">
-      <screen x="0" y="23" width="1440" height="805" />
+    <state x="300" y="164" key="Vcs.Push.Dialog.v2" timestamp="1591389768525">
+      <screen x="0" y="23" width="1440" height="801" />
     </state>
+    <state x="300" y="164" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1591389768525" />
     <state x="300" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1591365756346" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591387493726">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591442342154">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591387493726" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591442342154" />
   </component>
 </project>
