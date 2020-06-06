@@ -4,13 +4,12 @@ import axios from 'axios';
 class Pokemon extends Component {
 
     state = {
-        pokemonAttribution: []
-
+        pokemonAttribution: [],
     }
 
     componentDidMount() {
         axios.get(`https://pokeapi.co/api/v2/pokemon/${this.getIdFromWindowUrl()}`)
-            .then(response => this.setState({pokemonAttribution: response.data}))
+            .then(response => this.setState({pokemonAttribution: response.data.abilities}))
     }
 
     getIdFromWindowUrl = () => {
@@ -24,7 +23,9 @@ class Pokemon extends Component {
             <div>
                 This is the unique pokemon page!!!
                 <div>
-                    {JSON.stringify(this.state)}
+                    {this.state.pokemonAttribution.map((item) => (
+                        <li>{item.ability.name}</li>
+                    ))}
                 </div>
             </div>
         );

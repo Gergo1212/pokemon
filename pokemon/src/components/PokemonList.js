@@ -19,13 +19,32 @@ class PokemonList extends Component {
         return splittedUrl[splittedUrl.length - 2];
     }
 
+
     render() {
+        const flexContainerStyle = {
+            display: 'flex',
+            flexDirection: 'column',
+            backgroundColor: 'DodgerBlue',
+        };
+
+        const flexDivStyle = {
+            backgroundColor: '#f1f1f1',
+            width: '30%',
+            margin: '10px',
+            borderRadius: '5px',
+            textAlign: 'center',
+            lineHeight: '75px',
+            fontSize: '30px'
+        }
+
         return (
-            this.state.pokemonList.map((item) => (
+            <div style={flexContainerStyle}>
+                {this.state.pokemonList.map((item) => (
                 <Link to={`/pokemon/${this.getIdFromUrl(item)}`}>
-                    <li key={this.getIdFromUrl(item)}>{item.name}</li>
+                    <li style={flexDivStyle} key={this.getIdFromUrl(item)}>{item.name}</li>
                 </Link>
-            ))
+                ))}
+            </div>
         );
     }
 }

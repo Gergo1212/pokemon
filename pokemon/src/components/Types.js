@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios'
+import {Link} from "react-router-dom";
 
 class Types extends Component {
     state = {
@@ -14,7 +15,7 @@ class Types extends Component {
     render() {
         return (
             this.state.types.map((item, number) => (
-                <li key={number}>{JSON.stringify(item)}</li>
+                <li key={number}>{item.name} <Link to={item.url}>{item.url}</Link></li>
             ))
         );
     }
