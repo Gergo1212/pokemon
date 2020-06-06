@@ -20,11 +20,12 @@ class Pokemon extends Component {
 
 
     render() {
-        //console.log(this.state.pokemonAttribution)
         return (
             <div>
                 This is the unique pokemon page!!!
-                <div></div>
+                <div>
+                    {JSON.stringify(this.state)}
+                </div>
             </div>
         );
     }

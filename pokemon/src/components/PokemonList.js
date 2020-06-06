@@ -21,12 +21,12 @@ class PokemonList extends Component {
 
     render() {
         return (
-            this.state.pokemonList.map((item, number) => (
+            this.state.pokemonList.map((item) => (
                 <Link to={`/pokemon/${this.getIdFromUrl(item)}`}>
                     <li key={this.getIdFromUrl(item)}>{item.name}</li>
                 </Link>
             ))
-        )
+        );
     }
 }
 
