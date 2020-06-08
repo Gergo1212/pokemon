@@ -1,26 +1,20 @@
-import React, {Component} from 'react';
+import React, {useEffect, useState} from 'react';
 import axios from 'axios';
 import {Link} from "react-router-dom";
 
-class PokemonList extends Component {
+function PokemonList() {
+    const [pokemonList, setPokemonList] = useState();
 
-    state = {
-        pokemonList: []
-    }
-
-    componentDidMount() {
+    useEffect(() => {
         axios.get('https://pokeapi.co/api/v2/pokemon')
-            .then(response => this.setState({pokemonList: response.data.results})
-            )
-    }
+        .then(response => setPokemonList(response.data.results))
+    },[pokemonList]);
 
-    getIdFromUrl = (item) => {
+    const getIdFromUrl = (item) => {
         const splittedUrl = item.url.split('/')
         return splittedUrl[splittedUrl.length - 2];
     }
 
-
-    render() {
         const flexContainerStyle = {
             display: 'flex',
             flexDirection: 'column',
@@ -39,14 +33,13 @@ class PokemonList extends Component {
 
         return (
             <div style={flexContainerStyle}>
-                {this.state.pokemonList.map((item) => (
-                <Link to={`/pokemon/${this.getIdFromUrl(item)}`}>
-                    <li style={flexDivStyle} key={this.getIdFromUrl(item)}>{item.name}</li>
+                {pokemonList.map((item) => (
+                <Link to={`/pokemon/${getIdFromUrl(item)}`}>
+                    <li style={flexDivStyle} key={getIdFromUrl(item)}>{item.name}</li>
                 </Link>
                 ))}
             </div>
         );
-    }
 }
 
 export default PokemonList;

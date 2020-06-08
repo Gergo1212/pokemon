@@ -1,35 +1,30 @@
-import React, {Component} from 'react';
+import React, {useEffect, useState} from 'react';
 import axios from 'axios';
 
-class Pokemon extends Component {
+function Pokemon() {
 
-    state = {
-        pokemonAttribution: [],
-    }
+    const [abilities, setAbilities] = useState();
+    useEffect(() => {
+        axios.get(`https://pokeapi.co/api/v2/pokemon/${getIdFromWindowUrl()}`)
+            .then(response => setAbilities(response.data.abilities))
+    })
 
-    componentDidMount() {
-        axios.get(`https://pokeapi.co/api/v2/pokemon/${this.getIdFromWindowUrl()}`)
-            .then(response => this.setState({pokemonAttribution: response.data.abilities}))
-    }
 
-    getIdFromWindowUrl = () => {
+    const getIdFromWindowUrl = () => {
         const splittedUrl = window.location.href.split('/')
         return splittedUrl[splittedUrl.length - 1];
     }
 
-
-    render() {
-        return (
+    return (
+        <div>
+            This is the unique pokemon page!!!
             <div>
-                This is the unique pokemon page!!!
-                <div>
-                    {this.state.pokemonAttribution.map((item) => (
-                        <li>{item.ability.name}</li>
-                    ))}
-                </div>
+                {abilities.map((item) => (
+                    <li>{item.ability.name}</li>
+                ))}
             </div>
-        );
-    }
+        </div>
+    );
 }
 
 export default Pokemon;
