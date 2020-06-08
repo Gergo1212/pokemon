@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="060f9128-a815-48c9-aadf-d28cb778d73c" name="Default Changelist" comment="Pokemon function iter works">
-      <change afterPath="$PROJECT_DIR$/pokemon/src/ThemeContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon/src/components/Pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/components/Pokemon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon/src/components/PokemonList.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/components/PokemonList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon/src/components/Types.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/components/Types.js" afterDir="false" />
+    <list default="true" id="060f9128-a815-48c9-aadf-d28cb778d73c" name="Default Changelist" comment="ThemeContext.js added">
+      <change beforePath="$PROJECT_DIR$/pokemon/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/src/ThemeContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/ThemeContext.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature_1" />
+        <entry key="$PROJECT_DIR$" value="hooks" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,7 +85,7 @@
       <workItem from="1591462149699" duration="1406000" />
       <workItem from="1591557651288" duration="152000" />
       <workItem from="1591594305194" duration="4851000" />
-      <workItem from="1591608987125" duration="2286000" />
+      <workItem from="1591608987125" duration="2523000" />
     </task>
     <task id="LOCAL-00001" summary="react app created">
       <created>1591365712561</created>
@@ -146,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591599499398</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ThemeContext.js added">
+      <created>1591614796766</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591614796766</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +177,8 @@
     <MESSAGE value="header function" />
     <MESSAGE value="Pokemon function" />
     <MESSAGE value="Pokemon function iter works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pokemon function iter works" />
+    <MESSAGE value="ThemeContext.js added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ThemeContext.js added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="164" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591365836870">
@@ -217,10 +222,10 @@
     </state>
     <state x="209" y="23" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591442484439" />
     <state x="209" y="44" key="SettingsEditor/0.23.1440.805@0.23.1440.805" timestamp="1591366004156" />
-    <state x="300" y="164" key="Vcs.Push.Dialog.v2" timestamp="1591599517428">
-      <screen x="0" y="23" width="1440" height="803" />
+    <state x="300" y="164" key="Vcs.Push.Dialog.v2" timestamp="1591614800382">
+      <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state x="300" y="164" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1591596457360" />
+    <state x="300" y="164" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1591614800382" />
     <state x="300" y="164" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1591599517428" />
     <state x="300" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1591365756346" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591442342154">
