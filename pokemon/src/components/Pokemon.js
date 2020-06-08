@@ -3,7 +3,7 @@ import axios from 'axios';
 
 function Pokemon() {
 
-    const [abilities, setAbilities] = useState();
+    const [abilities, setAbilities] = useState([]);
     useEffect(() => {
         axios.get(`https://pokeapi.co/api/v2/pokemon/${getIdFromWindowUrl()}`)
             .then(response => setAbilities(response.data.abilities))
@@ -14,14 +14,14 @@ function Pokemon() {
         const splittedUrl = window.location.href.split('/')
         return splittedUrl[splittedUrl.length - 1];
     }
-
+    const iter = abilities.map((item) => (
+        <li>{item.ability.name}</li>
+    ))
     return (
         <div>
             This is the unique pokemon page!!!
             <div>
-                {abilities.map((item) => (
-                    <li>{item.ability.name}</li>
-                ))}
+                {iter}
             </div>
         </div>
     );

@@ -3,12 +3,12 @@ import axios from 'axios';
 import {Link} from "react-router-dom";
 
 function PokemonList() {
-    const [pokemonList, setPokemonList] = useState();
+    const [pokemonList, setPokemonList] = useState([]);
 
     useEffect(() => {
         axios.get('https://pokeapi.co/api/v2/pokemon')
         .then(response => setPokemonList(response.data.results))
-    },[pokemonList]);
+    },[]);
 
     const getIdFromUrl = (item) => {
         const splittedUrl = item.url.split('/')
@@ -30,6 +30,10 @@ function PokemonList() {
             lineHeight: '75px',
             fontSize: '30px'
         }
+
+    /*    const iter = pokemonList.map((pokemon) => (
+            <li>{pokemon.name}</li>
+        ))*/
 
         return (
             <div style={flexContainerStyle}>
