@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Link} from "react-router-dom";
 
-class Header extends Component {
-    render() {
+function Header (){
+
         return (
             <div>
                 <Link to={'/pokemons'}>Pokemons</Link> <br/>
@@ -10,7 +10,6 @@ class Header extends Component {
                 <Link to={'/'}>Main Page</Link>
             </div>
         );
-    }
 }
 
 export default Header;
