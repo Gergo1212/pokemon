@@ -1,24 +1,24 @@
-import React, {Component} from 'react';
+import React, {useEffect, useState} from 'react';
 import axios from 'axios'
 import {Link} from "react-router-dom";
 
-class Types extends Component {
-    state = {
-        types: []
-    }
+function Types() {
+    const [types, setTypes] = useState([]);
 
-    componentDidMount() {
+    useEffect(() => {
         axios.get('https://pokeapi.co/api/v2/type')
-            .then(response => this.setState({types: response.data.results}))
-    }
+            .then(response => setTypes(response.data.results))
+    })
 
-    render() {
-        return (
-            this.state.types.map((item, number) => (
-                <li key={number}>{item.name} <Link to={item.url}>{item.url}</Link></li>
-            ))
-        );
-    }
+    const iter = types.map((item, number) => (
+        <Link to={item.url} key={number}>
+            <li>{item.name} </li>
+        </Link>
+    ))
+
+    return (
+        <div>{iter}</div>
+    )
 }
 
 export default Types;

@@ -30,19 +30,14 @@ function PokemonList() {
             lineHeight: '75px',
             fontSize: '30px'
         }
-
-    /*    const iter = pokemonList.map((pokemon) => (
-            <li>{pokemon.name}</li>
-        ))*/
+        const iter = pokemonList.map((item) => (
+             <Link to={`/pokemon/${getIdFromUrl(item)}`}>
+                 <li style={flexDivStyle} key={getIdFromUrl(item)}>{item.name}</li>
+             </Link>
+        ))
 
         return (
-            <div style={flexContainerStyle}>
-                {pokemonList.map((item) => (
-                <Link to={`/pokemon/${getIdFromUrl(item)}`}>
-                    <li style={flexDivStyle} key={getIdFromUrl(item)}>{item.name}</li>
-                </Link>
-                ))}
-            </div>
+            <div style={flexContainerStyle}>{iter}</div>
         );
 }
 

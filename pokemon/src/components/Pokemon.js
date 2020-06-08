@@ -15,14 +15,12 @@ function Pokemon() {
         return splittedUrl[splittedUrl.length - 1];
     }
     const iter = abilities.map((item) => (
-        <li>{item.ability.name}</li>
+        <li>{item.ability.name} </li>
     ))
     return (
         <div>
             This is the unique pokemon page!!!
-            <div>
-                {iter}
-            </div>
+            <div>{iter}</div>
         </div>
     );
 }
