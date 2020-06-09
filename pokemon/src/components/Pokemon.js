@@ -7,7 +7,7 @@ function Pokemon() {
     useEffect(() => {
         axios.get(`https://pokeapi.co/api/v2/pokemon/${getIdFromWindowUrl()}`)
             .then(response => setAbilities(response.data.abilities))
-    })
+    },[])
 
 
     const getIdFromWindowUrl = () => {

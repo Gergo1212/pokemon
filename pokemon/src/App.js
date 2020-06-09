@@ -1,19 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import PokemonList from "./components/PokemonList";
 import Pokemon from "./components/Pokemon";
 import Types from './components/Types';
 import Header from "./components/Header";
-import ThemeContext from "./ThemeContext";
+import {ThemeContext} from "./ThemeContext";
 
 function App() {
-    const theme = 'light';
 
+const teamHook = useState('light');
 
     return (
-        <ThemeContext.Provider value={theme}>
-            <div className="App">
+        <div className="App">
+            <ThemeContext.Provider value={teamHook}>
                 <Router>
                     <Route path='/'>
                         <div>This is the header</div>
@@ -32,8 +32,8 @@ function App() {
                         <Pokemon/>
                     </Route>
                 </Router>
-            </div>
-        </ThemeContext.Provider>
+            </ThemeContext.Provider>
+        </div>
     );
 }
 

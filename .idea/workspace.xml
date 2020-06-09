@@ -19,10 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="060f9128-a815-48c9-aadf-d28cb778d73c" name="Default Changelist" comment="theme created, Colors.js. added">
+    <list default="true" id="060f9128-a815-48c9-aadf-d28cb778d73c" name="Default Changelist" comment="ThemeToggler.js added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemon/src/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/Colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/src/ThemeContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/ThemeContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/src/ThemeToggler.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/ThemeToggler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pokemon/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/src/components/Pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/components/Pokemon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/src/components/Types.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokemon/src/components/Types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokemon/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +92,8 @@
       <workItem from="1591462149699" duration="1406000" />
       <workItem from="1591557651288" duration="152000" />
       <workItem from="1591594305194" duration="4851000" />
-      <workItem from="1591608987125" duration="3159000" />
+      <workItem from="1591608987125" duration="7643000" />
+      <workItem from="1591632976152" duration="5083000" />
     </task>
     <task id="LOCAL-00001" summary="react app created">
       <created>1591365712561</created>
@@ -158,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591615375074</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ThemeToggler.js added">
+      <created>1591615798685</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591615798685</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +201,8 @@
     <MESSAGE value="Pokemon function iter works" />
     <MESSAGE value="ThemeContext.js added" />
     <MESSAGE value="theme created, Colors.js. added" />
-    <option name="LAST_COMMIT_MESSAGE" value="theme created, Colors.js. added" />
+    <MESSAGE value="ThemeToggler.js added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ThemeToggler.js added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="164" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591365836870">
@@ -198,32 +213,36 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="454" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1591374310878" />
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1591611912986">
+    <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591627785941">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591457293551" />
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1591611912986" />
+    <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.801@0.23.1440.801" timestamp="1591627785941" />
+    <state width="1419" height="243" key="GridCell.Tab.0.bottom" timestamp="1591640350080">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="1419" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591637377600" />
+    <state width="1419" height="243" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1591640350080" />
     <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1591599535737" />
     <state width="1379" height="206" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1591366206556" />
-    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1591611912985">
+    <state width="1419" height="243" key="GridCell.Tab.0.center" timestamp="1591640350080">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591457293550" />
-    <state width="1419" height="204" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1591611912985" />
+    <state width="1419" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591637377599" />
+    <state width="1419" height="243" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1591640350080" />
     <state width="1419" height="204" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1591599535736" />
     <state width="1379" height="206" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1591366206556" />
-    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1591611912984">
+    <state width="1419" height="243" key="GridCell.Tab.0.left" timestamp="1591640350079">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591457293550" />
-    <state width="1419" height="204" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1591611912984" />
+    <state width="1419" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591637377598" />
+    <state width="1419" height="243" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1591640350079" />
     <state width="1419" height="204" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1591599535736" />
     <state width="1379" height="206" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1591366206555" />
-    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1591611912985">
+    <state width="1419" height="243" key="GridCell.Tab.0.right" timestamp="1591640350080">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591457293551" />
-    <state width="1419" height="204" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1591611912985" />
+    <state width="1419" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591637377600" />
+    <state width="1419" height="243" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1591640350080" />
     <state width="1419" height="204" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1591599535737" />
     <state width="1379" height="206" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1591366206556" />
     <state x="209" y="23" key="SettingsEditor" timestamp="1591442484439">
@@ -231,10 +250,10 @@
     </state>
     <state x="209" y="23" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591442484439" />
     <state x="209" y="44" key="SettingsEditor/0.23.1440.805@0.23.1440.805" timestamp="1591366004156" />
-    <state x="300" y="158" key="Vcs.Push.Dialog.v2" timestamp="1591615378928">
+    <state x="300" y="158" key="Vcs.Push.Dialog.v2" timestamp="1591615802419">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="300" y="158" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591615378928" />
+    <state x="300" y="158" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591615802419" />
     <state x="300" y="164" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1591614800382" />
     <state x="300" y="164" key="Vcs.Push.Dialog.v2/0.23.1440.803@0.23.1440.803" timestamp="1591599517428" />
     <state x="300" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.805@0.23.1440.805" timestamp="1591365756346" />
